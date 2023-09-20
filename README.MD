@@ -20,21 +20,21 @@ Before running the tests, make sure you have the following requirements installe
 2. Navigate to the project directory:
 
    ```shell
-  cd your-repo
+   cd your-repo
 
 3. Create a virtual environment (optional but recommended):
 
    ```shell
-    python -m venv venv
-    source venv/bin/activate  # Activate on Linux/Mac
-    venv\Scripts\activate  # Activate on Windows
+   python -m venv venv
+   source venv/bin/activate  # Activate on Linux/Mac
+   venv\Scripts\activate  # Activate on Windows
 
 4. Install Python dependencies:
 
    ```shell
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 5. Running the Tests. To execute the tests, open a terminal or command prompt in the project directory and run the following command:
 
    ```shell
-  robot -d ./logs tests/LoginTests.robot
+   robot -d ./logs tests/LoginTests.robot
